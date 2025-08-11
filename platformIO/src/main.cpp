@@ -29,8 +29,8 @@ void loop(){
 		}
 	}
 
-	uint16_t zahl = bytes[1] * 100 + bytes[2];
+	uint16_t num = bytes[1] * 100 + bytes[2];
 
-	sevseg.setNumber(zahl, 2);
+	sevseg.setNumber(num, 2);
 	sevseg.refreshDisplay();
 }
